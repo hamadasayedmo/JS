@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn DOM JS</title>
+</head>
+
+<body>
+    <div id="get-id">Hello Id</div>
+
+    <span class="get-class">Hello Span 1</span><br>
+    <span class="get-class">Hello Span 2</span>
+
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+
+    <form action="">
+        <input type="text" name="One" value="Hello">
+        <input type="password" name="Two" value="Hello">
+    </form>
+
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.facebook.com/">Facebook</a>
+    <script src="main.js"></script>
+    
+    <hr>
+    <!-- Exercise -->
+
+    <!-- Exercise 1-->
+    <!-- Use the getElementById method to find the <p> element, and change its text to "Hello". -->
+
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("demo").innerHTML = "Hello";  // Hello
+    </script>
+
+
+
+    <!-- Exercise 2-->
+    <!-- Change the text of the first element that has the class name "test". -->
+
+    <p class="test"></p>
+    <p class="test"></p>
+
+    <script>
+        document.getElementsByClassName("test")[0].innerHTML = "Hi"; // Hi
+    </script>
+
+
+
+    <!-- Exercise 3-->
+    <!-- Use HTML DOM to change the value of the image's src attribute. -->
+
+    <img id="image" src="smiley.gif" alt="img">
+
+    <script>
+        document.getElementById("image").src = "pic_mountain.jpg"; // repels image
+    </script><br>
+
+
+
+    <!-- Exercise 4 -->
+    <!-- Use HTML DOM to change the value of the input field. -->
+
+    <input type="text" id="myText" value="Hello">
+
+    <script>
+        document.getElementById("myText").value = "Have a nice day!";
+    </script>
+
+
+
+    <!-- Exercise 5 -->
+    <!-- Change the text color of the <p> element to "red". -->
+
+    <p id="dem">font color red</p>
+
+    <script>
+        document.getElementById("dem").style.color = "red";
+    </script>
+
+
+
+    <!-- Exercise 6 -->
+    <!-- Change the font size of the p element to 40 pixels. -->
+
+
+    <p id="de">Size Is 40Px </p>
+
+    <script>
+        document.getElementById("de").style.fontSize = "40px";
+    </script>
+
+</body>
+
+</html>

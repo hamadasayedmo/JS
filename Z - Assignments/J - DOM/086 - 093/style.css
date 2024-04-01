@@ -1,0 +1,30 @@
+.form-two {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-two input,
+select {
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.form-two [type="submit"] {
+    background-color: forestgreen;
+    color: white;
+}
+
+.results {
+    padding: 10px 15px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}

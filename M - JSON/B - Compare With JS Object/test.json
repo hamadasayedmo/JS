@@ -1,0 +1,8 @@
+{
+    "String": "Hamada",
+    "Number": 621224,
+    "object": { "eg": "cairo" },
+    "array": ["C++", "C#"],
+    "boolean": true,
+    "null": null
+}

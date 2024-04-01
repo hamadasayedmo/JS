@@ -1,0 +1,23 @@
+.banner {
+    background-image: url(./imgs/img4.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.images {
+    width: 450px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.images img {
+    width: 25%;
+    position: relative;
+    margin: 0 5px;
+    cursor: pointer;
+}

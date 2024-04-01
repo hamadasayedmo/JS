@@ -1,0 +1,26 @@
+.Product {
+    width: 150px; 
+}
+
+.Product h3 {
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: blue;
+}
+
+.Product p {
+    font-size: 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: brown;
+    position: relative; 
+}
+
+.Product p::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    bottom: -5px;
+    left: 0;
+}
