@@ -1,2 +1,2 @@
-# Js
+#Js
 JavaScript (JS)
